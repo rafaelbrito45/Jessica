@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buzzfeed{
+    width: 300px;
+}
+
+.quiz{
+    font-family: 'Overpass', sans-serif;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive; 
+}
+
+h4{
+    text-align: center;
+}
+
+.question{
+   border: 1px solid white;
+   border-radius: 5px;
+   margin: 0 1rem 3rem 1rem;
+
+}
+
+.question h4{
+    /* color: #008F11; */
+    color:#b84242;
+    font-size: 14px;
+}
+
+.option{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-left: 2rem;
+
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.result-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.result-button button{
+    width: 60%;
+    height: 2rem;
+    background-color: #3869e4;
+    border: 1px solid #3869e4 ;
+    border-radius: 5px;
+    color: white;
+}
+
+#resultSection{
+    font-family: 'Overpass', sans-serif;
+    display: none;
+}
+
+
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+
+.img-result{
+    background:url(resultimg.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    width: 80%;
+    height: 17rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.result-text{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+}
+
+i{
+    color: red;
+}
+
