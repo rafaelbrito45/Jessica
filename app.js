@@ -74,7 +74,7 @@ function showResults(){
     scoreNumber.innerHTML=result;
     resultSection.style.display="block";
     window.scroll({
-        top: 2000,
+        top: 2500,
         behavior: 'smooth'
       });
     
